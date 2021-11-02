@@ -13,7 +13,7 @@ public class homework {
 		System.out.println("C değerini giriniz : ");
 		c=scan.nextDouble();
 		disk=((b*b)-(4))*(a*c);//d>0 için b'ye 2den büyük sayı ver, d=0 için b'ye 2 ver, d<0 için b'ye 1
-		System.out.println("Diskriminant hesaplaması sonucu = "+disk); // bir nevi test 
+		System.out.println("Diskriminant hesaplaması sonucu = "+disk); // bir nevi test burası
 		
 		if(disk<0) {	
 			sonuc="Bu denklemin gerçel sayılarla ifade edilebilecek bir kökü yoktur.";
